@@ -8,9 +8,26 @@ fi
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
+# PATHS
+export PATH=$HOME/Code/bash-scripts:$PATH
+
+# ALIAS
+alias chrome='open -a "Google Chrome"'
+alias firefox='open -a "Firefox"'
+alias safari='open -a "Safari"'
+
+alias code='open -a "Visual Studio Code"'
+alias idea='open -a "IntelliJ Idea"'
+
+alias obsidian='open -a "Obsidian"'
+alias notion='open -a "Notion"'
+
+alias c='clear'
+
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH=$HOME/Code/bash-scripts:$PATH
+
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -107,15 +124,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias chrome='open -a "Google Chrome"'
-alias safari='open -a "Safari"'
-alias code='open -a "Visual Studio Code"'
-alias idea='open -a "IntelliJ Idea"'
-alias obsidian='open -a "Obsidian"'
-
-alias c='clear'
-alias weather='curl https://wttr.in'
-
 
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
