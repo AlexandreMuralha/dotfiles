@@ -1,2 +1,2 @@
 ### dotfiles
-Personal dotfiles configs.
+My personal dotfiles configuration.
