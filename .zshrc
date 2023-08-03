@@ -7,9 +7,11 @@ fi
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
+# this changes the zcompdump files creation to this path
+export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
 
 # PATHS
-export PATH=$HOME/Code/bash-scripts:$PATH
+export PATH=$HOME/Dev/bash-scripts:$PATH
 
 # ALIAS
 alias chrome='open -a "Google Chrome"'
@@ -23,11 +25,6 @@ alias obsidian='open -a "Obsidian"'
 alias notion='open -a "Notion"'
 
 alias c='clear'
-
-
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
