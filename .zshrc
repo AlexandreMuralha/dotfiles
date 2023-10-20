@@ -25,6 +25,7 @@ alias obsidian='open -a "Obsidian"'
 alias notion='open -a "Notion"'
 
 alias c='clear'
+alias mergemaster='export current_branch=$(git branch | grep "*" | cut -d " " -f2) && git checkout master && git pull && git checkout $current_branch && git merge master'
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
